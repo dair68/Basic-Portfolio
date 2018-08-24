@@ -3,7 +3,9 @@ header {
     border-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    height: 62px;
+    height: 72px;
+    /* display: inline; */
+    /* float: left; */
     /* overflow: hidden;
     padding: 0px; */
 } 
@@ -12,17 +14,27 @@ h1 {
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     width: 225px;
     margin-top: 0;
-    margin-left: 15%;
-    /* margin-bottom: 10px; */
-    
+    margin-left: 165px;
+    margin-right: 0;
+    margin-bottom: 0;
+    float: left;
+    /* margin-bottom: 10px; */ 
 }
 
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 10px;
+    float: left;
 }
 
 body {
@@ -34,7 +46,9 @@ body {
     margin-right: 12%; */
     color: #777777;
     min-height: 100%;
+    /* float: middle; */
     /* position: relative; */
+    /* text-align:center; */
 }
 
 footer {
@@ -52,17 +66,29 @@ footer {
 
 nav {
     float: right;
+    /* display: inline; */
+    /* background: pink; */
+    color: #cccccc;
+    width: 300px;
+    margin-top: 27px;
+    margin-right: 58px;
+    bottom: 0px;
 }
 
-section {
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+#about, #projects {
     background: #ffffff;
     border-style: solid;
     border-color: #dddddd;    
     border-width: 2px;
-    width: 960px;
+    width: 916px;
     padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
     /* padding-bottom: 60px; */
     float: left;
     display: block;
@@ -81,6 +107,38 @@ section {
     left: 50%;
 }
 
+button {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* z-index: 5; */
+    display: inline;
+    background: #ffffff;
+    color: #777777;
+    margin: 0px;
+}
+
+.thumbnail {
+    /* float: left; */
+    height: 180px;
+    width: 240px;
+    margin: 10px;
+    /* border-style: solid;
+    border-width: medium;
+    border-color: gainsboro; */
+}
+
+.project {
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+#codebreakers {
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+    width: 220px;
+}
 /* p1 {
     margin-left: 10px;
 } */
