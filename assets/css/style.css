@@ -4,11 +4,18 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     min-height: 100%;
+    /* margin: auto; */
 }
 
 header {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    height: 72px;
+}
+
+#links {
+    margin: auto;
+    width: 960px;
     height: 72px;
 }
 
@@ -22,18 +29,18 @@ h1, button, h3 {
 }
 
 h1 {
-    padding: 20px;
+    padding: 12px;
     width: 225px;
-    margin: 0px 0px 0px 165px;
+    margin: 0;
     float: left;
 }
 
 nav {
     float: right;
     color: #cccccc;
-    width: 300px;
+    width: 218px;
     margin-top: 27px;
-    margin-right: 58px;
+    /* margin-right: 71px; */
     bottom: 0px;
 }
 
@@ -47,14 +54,13 @@ section {
     border: 2px solid #dddddd;
     width: 916px;
     padding: 20px;
-    margin-left: 13%;
-    margin-right: 13%;
-    float: left;
-    display: block;
+    margin: auto;
+    /* display: block; */
 }
 
 h2 {
     color: #4aaaa5;
+    margin-top: .5em;
 }
 
 #portrait {
@@ -64,24 +70,29 @@ h2 {
     margin-right: 15px;
 }
 
+#gallery {
+    height: 360px;
+}
+
 .label {
     float: left;
+    height: 165px;
     position: relative;
-    text-align: center;
+    margin: 10px;
 }
 
 .thumbnail {
     height: 165px;
     width: 220px;
-    margin-right: 35px;
-    margin-bottom: 20px;
+    float: left;
 }
 
 .caption {
     position: absolute;
-    left: 0px;
-    bottom: 15px;
+    margin: 0;
+    bottom:10px;
     width: 200px;
+    text-align: center;
 }
 
 h3 {
