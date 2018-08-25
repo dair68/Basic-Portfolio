@@ -80,7 +80,7 @@ a {
     text-decoration: none;
 }
 
-#about, #projects {
+#about, #projects, #contact {
     background: #ffffff;
     border-style: solid;
     border-color: #dddddd;    
@@ -119,25 +119,50 @@ button {
 
 .thumbnail {
     /* float: left; */
-    height: 180px;
-    width: 240px;
-    margin: 10px;
+    height: 165px;
+    width: 220px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    /* margin: 10px; */
     /* border-style: solid;
     border-width: medium;
     border-color: gainsboro; */
 }
 
-.project {
+.label {
     float: left;
     position: relative;
     text-align: center;
+    /* margin: 0; */
 }
 
-#codebreakers {
+.caption {
     position: absolute;
-    left: 10px;
-    bottom: 3px;
-    width: 220px;
+    left: 0px;
+    bottom: 15px;
+    width: 200px;
+}
+
+#connectfour {
+    border-style: solid;
+    border-color: black;
+    /* border-width: 1px; */
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 12em;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    width: 10%;
 }
 /* p1 {
     margin-left: 10px;
