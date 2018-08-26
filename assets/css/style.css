@@ -4,7 +4,6 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     min-height: 100%;
-    /* margin: auto; */
 }
 
 header {
@@ -17,6 +16,14 @@ header {
     margin: auto;
     width: 960px;
     height: 72px;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+a:active {
+    color: #17E878;
 }
 
 h1, h2, h3 {
@@ -40,7 +47,6 @@ nav {
     color: #cccccc;
     width: 218px;
     margin-top: 27px;
-    /* margin-right: 71px; */
     bottom: 0px;
 }
 
@@ -55,7 +61,6 @@ section {
     width: 916px;
     padding: 20px;
     margin: auto;
-    /* display: block; */
 }
 
 h2 {
@@ -64,10 +69,10 @@ h2 {
 }
 
 #portrait {
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     float: left;
-    margin-right: 15px;
+    margin: 20px 22px 20px 0px;
 }
 
 #gallery {
